@@ -9,10 +9,11 @@
   
 </p>
  
- ## Bem-Vindo ao , aplicação onde você encontra desafios para ajudar a melhorar seu desempenho e bem estar na hora de programar .
- Acesse e experimente um pouco em : https://moveit-next-one-blue.vercel.app/
+ ## Bem-Vindo ao meu site, aplicação onde você pode ver meus desenhos , ou seja , a minha arte! .
+ Acesse e experimente um pouco em :https://rafa-site-desenho-eitptdas9-rafaelfigueiredo2203.vercel.app/
  
-![image](https://github.com/RafaelFigueiredo2203/moveit-NextJs-app/blob/main/public/Captura%20de%20tela%202021-04-25%20202930.jpg)
+![image](![image](https://user-images.githubusercontent.com/60237326/121439015-71992180-c95b-11eb-9d1d-506d820609e9.png);
+
 
 
 
@@ -30,15 +31,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
 - [Next.js](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+
 
 ## 💻 Projeto
 
-O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
+Esta aplicação foi desenvolvidada com o intuito de mostrar meu conhecimento e aprendizado sobre as linguagens utilizadas.
 
-## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 ## 🚀 Como executar
 
