@@ -1,0 +1,41 @@
+
+
+div.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;  
+    margin: 20px;
+    position: absolute;
+    margin-bottom: 25px;
+}
+
+
+img.img{
+    margin: 20px;
+    width: 300px;
+    border-radius: 50% !important;
+}
+div.container h1{
+    font-family:"Bodoni MT", sans-serif;
+padding-top: 15px;
+font-size: 30pt;
+}
+div.container h3{
+	font-size:15pt;
+	padding:10px;
+}
+div.container p{
+	font-family: "Times New Roman";
+	font-size: 20pt;
+	padding-bottom:15px;
+}
+@media only screen and (max-width: 800px) {
+    div.container{
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

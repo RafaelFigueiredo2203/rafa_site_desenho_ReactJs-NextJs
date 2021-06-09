@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+section.container{
+    position: relative;
+width: 1176px;
+height: 1645px;
+margin: 0 auto;
+top: 1400px;
+background: #000000;
+border-radius: 2rem;
+}
+img.zoom {
+	overflow: hidden;
+}
+
+img.zoom  {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+img.zoom:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+div.colunaLeft{
+    position: absolute;
+    width: 1087px;
+    height: 472px;
+    left: 98px;
+    top: 50px;
+}
+img.imgLeft{
+    position: absolute;
+    border-radius: 1rem;
+    left: 98px;
+    top: 50px;
+}
+h1.h1Left{
+    position: absolute;
+    left: 50.54%;
+    right: 18.52%;
+    top: 17.54%;
+    bottom: 81.26%;
+
+    /* medium/48 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height, or 121% */
+
+
+/* FFFFFF */
+
+color: #FFFFFF;
+}
+p.legend{
+    position: absolute;
+left: 50.54%;
+right: 13.25%;
+top: 42.23%;
+bottom: 79.69%;
+
+/* regular/16 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* FFFFFF */
+
+color: #FFFFFF;
+}
+a.ViewLeft{
+    position: absolute;
+    left: 55.54%;
+    right: 29.58%;
+    top: 65.01%;
+    bottom: 78.45%;
+    
+    /* medium/16 */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin: 18px;
+    padding: 8px;
+    border: black 1px solid;
+    border-radius: 10px;
+    
+    /* FFFFFF */
+    
+    color: #FFFFFF;
+}
+a.ViewLeft:hover{
+    background: white;
+    color:black;
+    
+}
+span.line{
+    /* line */
+
+
+position: absolute;
+left: 50.54%;
+right: 40.33%;
+top: 16.79%;
+bottom: 83.21%;
+
+/* FFFFFF */
+
+border: 1.2px solid #FFFFFF;
+}
+
+span.lineRight{
+    position: absolute;
+left: 9.59%;
+right: 80.7%;
+top: 115.29%;
+bottom: -14.71%;
+
+/* FFFFFF */
+
+border: 1.2px solid #FFFFFF;
+}
+img.imgRight{
+    position: absolute;
+    border-radius: 1rem;
+    left: 680px;
+    top: 520px;
+
+
+}
+h1.h1Right{
+    position: absolute;
+
+right: 69.66%;
+top: 115.04%;
+bottom: -20.77%;
+
+/* medium/48 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height, or 121% */
+
+
+/* FFFFFF */
+
+color: #FFFFFF;
+
+}
+
+
+
+    img.imgLeft2{
+position: absolute;
+left: 92px;
+top: 1010px;
+border-radius: 1rem;
+    }
+    span.lineLeft2{
+        position: absolute;
+        left: 50.54%;
+        right: 40.33%;
+        top: 220.79%;
+        bottom: 58.21%;
+
+/* FFFFFF */
+
+border: 1.2px solid #FFFFFF;
+    }
+    h1.h1Left2{
+        position: absolute;
+        right: 28.80%;
+        top: 220.53%;
+        bottom: 56.27%;
+
+/* medium/48 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height, or 121% */
+
+
+/* FFFFFF */
+
+color: #FFFFFF;
+
+    }
+    p.legendLeft2{
+        position: absolute;
+        left: 50.54%;
+        right: 13.25%;
+top: 245.23%;
+bottom: 54.7%;
+
+/* regular/16 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* FFFFFF */
+
+color: #FFFFFF;
+
+    }
+    a.ViewLeft2{
+        position: absolute;
+        left: 55.54%;
+        right: 29.58%;
+        top: 268.01%;
+        bottom: 78.45%;
+        
+        /* medium/16 */
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        
+        display: flex;
+        align-items: center;
+        text-align: right;
+        margin: 18px;
+        padding: 8px;
+        border: black 1px solid;
+        border-radius: 10px;
+        
+        /* FFFFFF */
+        
+        color: #FFFFFF;
+    }
+    a.ViewLeft2:hover{
+        background: white;
+    color:black;
+    }

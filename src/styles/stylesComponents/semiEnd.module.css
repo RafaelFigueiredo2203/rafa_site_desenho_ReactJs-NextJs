@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+
+div.container{
+position: relative;
+align-items: center;
+justify-content: center;
+text-align: center;
+top: 1400px;
+height: 630px;
+margin-top: 25px;
+
+}
+
+h1.h1{
+    font-family:Inter;
+    font-size: 40px;
+}
+img.zoom {
+	overflow: hidden;
+}
+
+img.zoom  {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+img.zoom:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+img.img{
+    border-radius: 1rem;
+}
+
+a.View{
+    
+    position: absolute;
+    width: 200px;
+
+    top: 83.01%;
+    bottom: 78.45%;
+    left: 43%;
+    
+    background: black;
+    /* medium/16 */
+    
+    font-family: Inter ;
+    
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    
+    /* identical to box height, or 162% */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 18px;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+    
+    /* FFFFFF */
+    
+    color: rgb(255, 255, 255);
+}
+a.View:hover{
+    background: white;
+    color:black;
+    
+}
+line.line{
+
+align-items: center;
+justify-content: center;
+display: flex;
+}
+@media only screen and (max-width: 1025px) {
+    a.View{
+        flex-direction: column;
+        left: 40%;
+        top: 82.01%;
+    }
+}
+@media only screen and (max-width: 800px) {
+
+    a.View{
+        flex-direction: column;
+        left: 35%;
+        top: 82.01%;
+    }
+}
+@media only screen and (max-width: 555px) {
+    div.container{
+        top:1450px;
+    }
+    a.View{
+        flex-direction: column;
+        left: 30%;
+        top: 82.01%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    div.container{
+        top:1490px;
+        left:5px;
+        width: 450px;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    a.View{
+        flex-direction: column;
+        left:25%;
+        top: 75.01%;
+    }
+}

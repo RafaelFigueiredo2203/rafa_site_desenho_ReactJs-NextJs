@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+@media only screen and (max-width: 460px) {
+    div.container{
+        flex-direction: column;
+        position:relatives;
+        width: 460px;
+    }
+}
+div.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background:#000000 ;
+    height: 55px;
+    
+    font-family: Inter;
+}
+div.container span{
+    
+    margin: 18px;
+    padding: 8px;
+    border: black 1px solid;
+    background:rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+div.container a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span.insta:hover{
+    background: linear-gradient(#fc542a, #e928af) ;
+}
+span.face:hover{
+    background: #4a73cc ;
+}
+span.whats:hover{
+    background: linear-gradient(#4dc93d) ;
+}
